@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(164, 162, 162);
+}
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Tahoma;
+    
+
+}
+.sedan{
+    background-color:rgb(198, 134, 49);
+    padding: 2em;
+    color: white;
+    width: 100%;
+}
+.sedan img{
+    height: 30%;
+    width: 30%;
+    padding-bottom: 15%;
+}
+.sedan h3{
+    font-size: 20px;
+    padding-bottom: 20%;
+    font-size: bold;
+}
+.sedan p{
+    font-size: 12px;
+    padding-bottom: 30%;
+    font-weight: lighter;
+}
+.sedan button{
+    border-radius: 20px;
+    color: rgb(159, 109, 44);
+    background-color: white;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+
+}
+.suvs{
+    background-color: rgb(9, 119, 115);
+    padding: 2em;
+    color: white;
+    width: 100%;
+}
+.suvs img{
+    height: 30%;
+    width: 30%;
+    padding-bottom: 15%;
+}
+.suvs h3{
+    font-size: 20px;
+    padding-bottom: 20%;
+    font-size: bold;
+}
+.suvs p{
+    font-size: 12px;
+    padding-bottom: 30%;
+    font-weight: lighter;
+}
+.suvs button{
+    border-radius: 20px;
+    color: rgb(9, 119, 115);
+    background-color: white;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+}
+.luxury{
+    background-color:rgba(9, 50, 43, 0.845) ;
+    padding: 2em;
+    color: white;
+    width: 100%;
+}
+.luxury img{
+    height: 30%;
+    width: 30%;
+    padding-bottom: 15%;
+}
+.luxury h3{
+    font-size: 20px;
+    padding-bottom: 20%;
+    font-size: bold;
+}
+.luxury p{
+    font-size: 12px;
+    padding-bottom: 30%;
+    font-weight:normal;
+}
+.luxury button{
+    border-radius: 20px;
+    color: rgba(9, 50, 43, 0.845);
+    background-color: white;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+}
